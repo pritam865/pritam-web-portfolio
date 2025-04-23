@@ -1,0 +1,30 @@
+/* Global styles */
+body {
+    @apply bg-background text-white font-sans;
+  }
+  
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #f472b6; /* Tailwind pink-400 */
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #1f2937; /* Tailwind gray-800 */
+  }
+  /* Optional: hide scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #ec4899; /* pink-500 */
+    border-radius: 10px;
+  }
+  
+  
